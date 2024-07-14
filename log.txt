@@ -1,1 +1,164 @@
 
+UserID: 1939040082 | Time: 2024-07-12 21:36:58.453001 | Command: /bgmi | Target: 20.235.54.145 | Port: 18383 | Time: 180
+Username: @TanishDroid
+Target: 20.235.54.145
+Port: 18383
+Time: 180
+
+UserID: 1939040082 | Time: 2024-07-12 21:45:40.851883 | Command: /bgmi | Target: 20.204.39.117 | Port: 27499 | Time: 180
+Username: @TanishDroid
+Target: 20.204.39.117
+Port: 27499
+Time: 180
+
+UserID: 1939040082 | Time: 2024-07-12 21:58:30.218511 | Command: /bgmi | Target: 20.235.93.233 | Port: 20336 | Time: 180
+UserID: 1939040082 | Time: 2024-07-12 21:58:30.218430 | Command: /bgmi | Target: 20.235.93.233 | Port: 20336 | Time: 240
+Username: @TanishDroid
+Target: 20.235.93.233
+Port: 20336
+Time: 180
+
+Username: @TanishDroid
+Target: 20.235.93.233
+Port: 20336
+Time: 240
+
+UserID: 1939040082 | Time: 2024-07-12 22:03:19.617395 | Command: /bgmi | Target: 20.219.124.129 | Port: 18696 | Time: 240
+Username: @TanishDroid
+Target: 20.219.124.129
+Port: 18696
+Time: 240
+
+UserID: 1939040082 | Time: 2024-07-12 22:06:24.982615 | Command: /bgmi | Target: 20.204.13.166 | Port: 10940 | Time: 300
+Username: @TanishDroid
+Target: 20.204.13.166
+Port: 10940
+Time: 300
+
+UserID: 1939040082 | Time: 2024-07-12 22:10:14.095716 | Command: /bgmi | Target: 20.219.21.44 | Port: 21593 | Time: 250
+Username: @TanishDroid
+Target: 20.219.21.44
+Port: 21593
+Time: 250
+
+UserID: 1939040082 | Time: 2024-07-12 22:17:38.623736 | Command: /bgmi | Target: 20.204.39.75 | Port: 10267 | Time: 200
+UserID: 1939040082 | Time: 2024-07-12 22:20:24.092162 | Command: /bgmi | Target: 20.198.106.109 | Port: 14298 | Time: 180
+Username: @TanishDroid
+Target: 20.198.106.109
+Port: 14298
+Time: 180
+
+UserID: 1939040082 | Time: 2024-07-12 22:58:29.390118 | Command: /bgmi | Target: 20.204.19.56 | Port: 10159 | Time: 180
+Username: @TanishDroid
+Target: 20.204.19.56
+Port: 10159
+Time: 180
+
+UserID: 1939040082 | Time: 2024-07-12 23:04:45.974750 | Command: /bgmi | Target: 20.204.179.88 | Port: 26488 | Time: 180
+Username: @TanishDroid
+Target: 20.204.179.88
+Port: 26488
+Time: 180
+
+UserID: 1939040082 | Time: 2024-07-13 11:38:14.823010 | Command: /bgmi | Target: 20.235.89.220 | Port: 19222 | Time: 180
+Username: @TanishDroid
+Target: 20.235.89.220
+Port: 19222
+Time: 180
+
+UserID: 1939040082 | Time: 2024-07-13 11:51:58.687347 | Command: /bgmi | Target: 20.235.53.165 | Port: 10129 | Time: 180
+Username: @TanishDroid
+Target: 20.235.53.165
+Port: 10129
+Time: 180
+
+UserID: 1939040082 | Time: 2024-07-13 16:41:23.391684 | Command: /bgmi | Target: 4.247.20.151 | Port: 28266 | Time: 180
+Username: @TanishDroid
+Target: 4.247.20.151
+Port: 28266
+Time: 180
+
+UserID: 1939040082 | Time: 2024-07-13 17:13:57.024784 | Command: /bgmi | Target: 20.198.82.124 | Port: 26817 | Time: 180
+Username: @TanishDroid
+Target: 20.198.82.124
+Port: 26817
+Time: 180
+
+UserID: 1939040082 | Time: 2024-07-13 17:23:21.543392 | Command: /bgmi | Target: 20.204.88.247 | Port: 24346 | Time: 180
+Username: @TanishDroid
+Target: 20.204.88.247
+Port: 24346
+Time: 180
+
+UserID: 1939040082 | Time: 2024-07-13 17:37:02.044012 | Command: /bgmi | Target: 52.140.2.176 | Port: 28379 | Time: 180
+Username: @TanishDroid
+Target: 52.140.2.176
+Port: 28379
+Time: 180
+
+UserID: 1939040082 | Time: 2024-07-13 17:51:13.827682 | Command: /bgmi | Target: 20.235.20.221 | Port: 18327 | Time: 180
+Username: @TanishDroid
+Target: 20.235.20.221
+Port: 18327
+Time: 180
+
+UserID: 1939040082 | Time: 2024-07-13 18:24:24.374069 | Command: /bgmi | Target: 20.235.95.251 | Port: 22037 | Time: 180
+Username: @TanishDroid
+Target: 20.235.95.251
+Port: 22037
+Time: 180
+
+UserID: 1939040082 | Time: 2024-07-13 18:34:44.135657 | Command: /bgmi | Target: 20.219.107.207 | Port: 10120 | Time: 180
+Username: @TanishDroid
+Target: 20.219.107.207
+Port: 10120
+Time: 180
+
+UserID: 1939040082 | Time: 2024-07-13 18:39:47.219218 | Command: /bgmi | Target: 52.172.26.232 | Port: 19509 | Time: 180
+Username: @TanishDroid
+Target: 52.172.26.232
+Port: 19509
+Time: 180
+
+UserID: 1939040082 | Time: 2024-07-13 18:59:33.211957 | Command: /bgmi | Target: 20.219.88.76 | Port: 23812 | Time: 180
+Username: @TanishDroid
+Target: 20.219.88.76
+Port: 23812
+Time: 180
+
+UserID: 1939040082 | Time: 2024-07-13 19:14:37.999049 | Command: /bgmi | Target: 4.247.17.91 | Port: 15311 | Time: 180
+Username: @TanishDroid
+Target: 4.247.17.91
+Port: 15311
+Time: 180
+
+UserID: 1939040082 | Time: 2024-07-13 19:56:30.241690 | Command: /bgmi | Target: 20.198.76.200 | Port: 24789 | Time: 300
+Username: @TanishDroid
+Target: 20.198.76.200
+Port: 24789
+Time: 300
+
+UserID: 1939040082 | Time: 2024-07-13 20:01:00.362794 | Command: /bgmi | Target: 4.247.21.115 | Port: 10033 | Time: 240
+Username: @TanishDroid
+Target: 4.247.21.115
+Port: 10033
+Time: 240
+
+UserID: 6663863353 | Time: 2024-07-13 20:04:19.755187 | Command: /bgmi | Target: 20.204.16.221 | Port: 29198 | Time: 180
+Username: @Khatarnak_Boy_Paid
+Target: 20.204.16.221
+Port: 29198
+Time: 180
+
+UserID: 6663863353 | Time: 2024-07-13 20:06:18.691701 | Command: /bgmi | Target: 20.235.14.255 | Port: 12644 | Time: 180
+Username: @Khatarnak_Boy_Paid
+Target: 20.235.14.255
+Port: 12644
+Time: 180
+
+UserID: 6663863353 | Time: 2024-07-13 20:13:32.378745 | Command: /bgmi | Target: 20.235.91.37 | Port: 17279 | Time: 180
+Username: @Khatarnak_Boy_Paid
+Target: 20.235.91.37
+Port: 17279
+Time: 180
+

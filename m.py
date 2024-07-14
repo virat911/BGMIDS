@@ -11,7 +11,8 @@ keep_alive()
 bot = telebot.TeleBot('5995969634:AAHN9u5lvTwvD2DC13wzFnD-AXv12piyoF0')
 
 # Admin user IDs
-admin_id = ["1939040082"]
+admin_id = ["1939040082", "@TanishDroid"]
+channel_id = ["-1002164618223"]
 
 # File to store allowed user IDs
 USER_FILE = "users.txt"
@@ -30,14 +31,14 @@ def read_users():
 # Function to read free user IDs and their credits from the file
 def read_free_users():
     try:
-        with open(FREE_USER_FILE, "r") as file:
+        with open(FREE_USER_FILE, "r") as file: # type: ignore
             lines = file.read().splitlines()
             for line in lines:
                 if line.strip():  # Check if line is not empty
                     user_info = line.split()
                     if len(user_info) == 2:
                         user_id, credits = user_info
-                        free_user_credits[user_id] = int(credits)
+                        free_user_credits[user_id] = int(credits) # type: ignore
                     else:
                         print(f"Ignoring invalid line in free user file: {line}")
     except FileNotFoundError:
@@ -48,7 +49,7 @@ allowed_user_ids = read_users()
 
 # Function to log command to the file
 def log_command(user_id, target, port, time):
-    admin_id = ["1939040082"]
+    admin_id = ["1939040082", "@TanishDroid"]
     user_info = bot.get_chat(user_id)
     if user_info.username:
         username = "@" + user_info.username
@@ -279,7 +280,7 @@ def start_attack_reply(message, target, port, time):
     user_info = message.from_user
     username = user_info.username if user_info.username else user_info.first_name
     
-    response = f"{username}, 𝐀𝐓𝐓𝐀𝐂𝐊 𝐒𝐓𝐀𝐑𝐓𝐄𝐃.🔥🔥\n\n𝐓𝐚𝐫𝐠𝐞𝐭: {target}\n𝐏𝐨𝐫𝐭: {port}\n𝐓𝐢𝐦𝐞: {time} 𝐒𝐞𝐜𝐨𝐧𝐝𝐬\n𝐌𝐞𝐭𝐡𝐨𝐝: VIP- @TanishDroi ka BLACK MAGIC✨"
+    response = f"{username}, 𝐀𝐓𝐓𝐀𝐂𝐊 𝐒𝐓𝐀𝐑𝐓𝐄𝐃.🔥🔥\n\n𝐓𝐚𝐫𝐠𝐞𝐭: {target}\n𝐏𝐨𝐫𝐭: {port}\n𝐓𝐢𝐦𝐞: {time} 𝐒𝐞𝐜𝐨𝐧𝐝𝐬\n𝐌𝐞𝐭𝐡𝐨𝐝: VIP- @TanishDroid ka BLACK MAGIC✨"
     bot.reply_to(message, response)
 
 # Dictionary to store the last time each user ran the /bgmi command
@@ -320,7 +321,7 @@ def handle_bgmi(message):
         else:
             response = "✅ Usage :- /bgmi <target> <port> <time>"  # Updated command syntax
     else:
-        response = ("🚫 Unauthorized Access! 🚫\n\nOops! It seems like you don't have permission to use the /bgmi command. DM TO BUY ACCESS:- @TanishDroid)
+        response = ("🚫 Unauthorized Access! 🚫\n\nOops! It seems like you don't have permission to use the /bgmi command. DM TO BUY ACCESS:- @TanishDroid")
 
     bot.reply_to(message, response)
 
@@ -403,6 +404,7 @@ Pr-ice List💸 :
 Day-->80 Rs
 Week-->400 Rs
 Month-->1000 Rs
+DM:- @TanishDroid
 '''
     bot.reply_to(message, response)
 

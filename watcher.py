@@ -5,7 +5,8 @@ from aiogram import Bot
 import asyncio
 
 API_TOKEN = '5995969634:AAHN9u5lvTwvD2DC13wzFnD-AXv12piyoF0'
-ADMIN_ID = '1939040082'
+ADMIN_ID = '1939040082', '@TanishDroid'
+CHANNEL_ID = '-1002164618223'
 MAX_RESTARTS = 5
 RESTART_PERIOD = 60  # Seconds
 
